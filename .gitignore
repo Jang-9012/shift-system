@@ -1,0 +1,13 @@
+# 데이터베이스 파일 제외
+*.db
+*.sqlite
+*.sqlite3
+
+# 개인정보/명단 엑셀 파일 제외
+*.xlsx
+*.xls
+
+# 스트림릿 로컬 설정 및 캐시 제외
+.streamlit/secrets.toml
+__pycache__/
+.ipynb_checkpoints/
